@@ -1,0 +1,56 @@
+div.no_frame{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+div#name_skills{
+  color: white;
+  font-size: 16px;
+  margin-top: 1.5%;
+}
+
+i#skills{
+  display:inline-block;
+  line-height: 50px;
+  color:white;
+  width: 150px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 50px;
+}
+a#nav-icon {
+  color: rgb(213, 227, 255);
+}
+#profile_pic{
+  width: 50%;
+}
+
+#portfolio {
+  padding: 0px;
+  width: 100%;
+}
+#text_box
+{
+  background-color:rgba(43, 43, 43, 0.76);
+  color:white;
+  height:125px;
+  padding-left: 3% !important;
+}
+#text_box h3 {
+    font-weight: 900;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+    font-size: 33px;
+}
+.second_box
+{
+  width:100% !important;
+  height:250px !important;
+  padding-left: 10% !important;
+  padding-top: 7% !important;
+  font-size: 16px !important;
+}
+#cupe
+{
+  opacity: 0;
+}

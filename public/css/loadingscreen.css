@@ -1,0 +1,64 @@
+#loadingscreen_logo{
+  z-index:200;
+  position:absolute;
+  top:30%;
+  left:39%;
+  display: block;
+
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+}
+
+#left-pane, #right-pane{
+  opacity:0.9;
+  background-color:#000;
+  position:fixed;
+  width:50%;
+  height:100%;
+  top:0px;
+  z-index:100;
+}
+#left-pane{
+  left:0px;
+
+}
+#right-pane{
+  left:50%;
+
+}
+
+.flip {
+  transform: rotate(360deg);
+}
+
+.pulse {
+border-radius: 50%;
+box-shadow: 0 0 0 rgba(63, 62, 64, 0.4);
+animation: pulse 2s infinite;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(175, 175, 175, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(175, 175, 175, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(175, 175, 175, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(175, 175, 175, 0.4);
+    box-shadow: 0 0 0 0 rgba(175, 175, 175, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(175, 175, 175, 0);
+      box-shadow: 0 0 0 10px rgba(175, 175, 175, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(175, 175, 175, 0);
+      box-shadow: 0 0 0 0 rgba(175, 175, 175, 0);
+  }
+}
